@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:wght@700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Roboto+Mono&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Uncial+Antiqua&family=Underdog&family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0a0908;
+    text-align: center;
+
+
+}
+
+h1 {
+    color: dodgerblue;
+    text-shadow: 0 0 -1px dodgerblue, 0 0 1px dodgerblue;
+    font-family: "Underdog", system-ui;
+    font-size: 20px;
+    margin-top: 4px;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    margin-top: 5px;
+
+}
+
+.Game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2.0vmin;
+    box-shadow: 1px -1px 15px 0px dodgerblue;
+    padding: 7px;
+    border-radius: 9px;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 9px;
+    font-size: 8vmin;
+    box-shadow: 0px 0px 3px 1px dodgerblue;
+    background-color: black;
+    color: antiquewhite;
+}
+
+
+.btn {
+    display: flex;
+    gap: 12px;
+    /* Buttons ke beech ka gap */
+    justify-content: center;
+}
+
+#reset-btn {
+    font-family: "Underdog", system-ui;
+    padding: 0.4rem;
+    font-size: .8rem;
+    margin-top: 11px;
+    background-color: black;
+    color: antiquewhite;
+    border-radius: 8px;
+    box-shadow: 0px 0px 3px 1px dodgerblue;
+}
+
+#New-btn {
+    font-family: "Underdog", system-ui;
+    padding: 0.4rem;
+    font-size: .8rem;
+    background-color: black;
+    color: antiquewhite;
+    border-radius: 8px;
+    box-shadow: 0px 0px 3px 1px dodgerblue;
+    height: 32px;
+    margin-top: 11px;
+
+
+}
+
+#msg {
+    font-size: 6vmin;
+    width: 1050px;
+    height: 99vmin;
+    display: flex;
+    margin-top: -37px;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    gap: .5rem;
+    max-height: 200px;
+}
+
+.hide {
+    display: none;
+}
